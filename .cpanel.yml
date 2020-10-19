@@ -1,7 +1,7 @@
 ---
     deployment:
       tasks:
-        - export DEPLOYPATH=/home/stella405/cryptoteniska.com/
+        - export DEPLOYPATH=/home/stella405/kupiteniska.com/
         - /bin/rm -rf $DEPLOYPATH/*
         - /bin/cp -R . $DEPLOYPATH
         - /bin/rm $DEPLOYPATH/.cpanel.yml
